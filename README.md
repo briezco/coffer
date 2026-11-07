@@ -40,10 +40,10 @@ You can import/export all or part of your data (plan, transactions, etc.)
 - **Habits** This gives you an idea of how you spend your money. Use it to adjust
   your plan as needed.
 - **Wishlist** What else is the point of savings? These aren't lines, but you can
-  attech them to a line, and you can even allocate money to them.
+  attach them to a line, and you can even allocate money to them.
 
 Coffer is meant to give you the ability to plan, record, and save your money, but
-you can use it anyway you like to. No plan? No problem. No wishlist? Look at you,
+you can use it any way you like to. No plan? No problem. No wishlist? Look at you,
 already satisfied. No transactions? Well, if you want to hide away all your money,
 I guess that's fine, too.
 
