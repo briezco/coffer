@@ -1,59 +1,55 @@
 # Coffer
 
-An envelope-budgeting app for Windows. Give every dollar a line, record
-what you spend against it, and see where your habits actually are.
-
-It is a **ledger, not a forecast** — built for recording what already
-happened, keeping it against a plan when real life forces a deviation
-from it, and answering whether you can afford the thing you want yet.
+Coffer is a (vibe-coded) envelope budgeting app and ledger for Windows. You can create 
+a plan to determine how you want to allocate your money, record transactions against 
+it, and view habits you develop over time. It's good for keeping track of your income,
+spending, and saving up for those items on your wishlist!
 
 ## Download
 
 **[Download Coffer for Windows](https://github.com/briezco/coffer/releases/latest)**
-· Windows 10 or 11, 64-bit.
 
-Windows will warn you about it. The installer is not signed by a
-certificate authority — that costs a few hundred dollars a year — so
-SmartScreen shows a blue dialog saying it protected your PC. Click
-**More info**, then **Run anyway**. The alternative is a signing
-certificate, which proves somebody paid for one and nothing else.
+Supported platforms:
+* Windows 10 or 11, 64-bit.
 
-Coffer updates itself after that: it checks on launch and offers the
-new version, and only installs what matches the hash published here.
+There are maybe future plans to support Android and Apple. Until then, the app is free!
+
+Note that the installer is unsigned. This is because certs ain't free. If a warning 
+pops up when you try to install it, that's why. It should only happen the first time, 
+not on subsequent updates. Regarding those, Coffer checks for a new version on launch, 
+and installs only a download that matches the hash published here.
 
 ## Your data
 
-Your budget is a single file on your own machine, under
-`%APPDATA%\io.github.brieco\coffer`. There is no account, no server, and
-nothing to sign up for. Nobody else has a copy, including me — so keep
-your own: **Menu → Export** writes the whole budget to spreadsheets you
-can put anywhere, and **Import** reads them back.
+Your budget is one file, local to your own machine, at
+`%APPDATA%\io.github.brieco\coffer`. There is no account and no server (yet).
 
-## What it does
+**Menu → Export** writes the whole budget to spreadsheets.
+**Menu → Import** reads them back.
+You can import/export all or part of your data (plan, transactions, etc.)
 
-- **Lines.** Envelopes. Income is allocated across them, spending comes
-  out of them, and each one carries its own balance and history.
-- **A plan, applied.** Set what each line should get and what the
-  recurring bills are, then apply it to a month. The plan and what
-  actually happened stay separate.
-- **A ledger.** Every entry, filterable, with one expense divisible
-  across several lines.
-- **Money owed to you.** Cover dinner for a table of people and each
-  debt is tracked separately, out of your budget until it comes back.
-- **Estimates.** Record a payment at the figure on the receipt and flag
-  it, for when the card posts a different number two days later.
-- **Habits.** Where the money went, by category, payee and day, against
-  the months before it.
-- **A wishlist**, which can hold money of its own, and will tell you
-  when you can afford something at the rate you are saving.
+## The details
 
-Nothing leaves the app. There are no ads, no subscription and no
-upsell in it.
+- **Lines** These are basically envelopes, though I like to call them budget lines.
+  Income is allocated across them, spending comes out of them, and each has its own balance and history.
+- **Plans** Income allocations to your lines. You can also assign bills to a line to
+  keep track of them.
+- **Ledger** Your transactions. You can split an expense across multiple lines. You
+  can record transactions that aren't finalized, e.g. if you expect the money back.
+  Over time, these build a history that inform your spending habits.
+- **Habits** This gives you an idea of how you spend your money. Use it to adjust
+  your plan as needed.
+- **Wishlist** What else is the point of savings? These aren't lines, but you can
+  attech them to a line, and you can even allocate money to them.
 
-## Status and support
+Coffer is meant to give you the ability to plan, record, and save your money, but
+you can use it anyway you like to. No plan? No problem. No wishlist? Look at you,
+already satisfied. No transactions? Well, if you want to hide away all your money,
+I guess that's fine, too.
 
-Version 0.5.0 — working, in daily use by its author, and still having
-its wording revised. If something is wrong, open an issue here and say
-what you were doing when it happened.
+## Status
 
-Android and iOS are not built yet.
+Version 0.5.0 because it's not version 1.0.
+
+To report a problem, open an issue and say what you were doing when it
+happened. Screenshots are always helpful. I'll put claude right on it.
