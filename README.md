@@ -22,7 +22,7 @@ and installs only a download that matches the hash published here.
 ## Your data
 
 Your budget is one file, local to your own machine, at
-`%APPDATA%\io.github.brieco\coffer`. There is no account and no server (yet).
+`%APPDATA%\Coffer`. There is no account and no server (yet).
 
 **Menu → Export** writes the whole budget to spreadsheets.
 **Menu → Import** reads them back.

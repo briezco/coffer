@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "0.5.0",
-    "installer":  "https://github.com/briezco/coffer/releases/download/v0.5.0/coffer-0.5.0-setup.exe",
-    "sha256":  "e7f2f03e550664d26cfde03f214ad41f0bc3693ce9903f875eb3be8c74df3ee7"
+    "version":  "0.5.1",
+    "installer":  "https://github.com/briezco/coffer/releases/download/v0.5.1/coffer-0.5.1-setup.exe",
+    "sha256":  "c46447fd7e57cb8bafe56bdbb606f297ca9051266aa2334d121bcd8d07d38295"
 }
