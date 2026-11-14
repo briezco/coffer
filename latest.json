@@ -1,5 +1,6 @@
 ﻿{
-    "version":  "0.5.1",
-    "installer":  "https://github.com/briezco/coffer/releases/download/v0.5.1/coffer-0.5.1-setup.exe",
-    "sha256":  "c46447fd7e57cb8bafe56bdbb606f297ca9051266aa2334d121bcd8d07d38295"
+    "version":  "0.5.2",
+    "installer":  "https://github.com/briezco/coffer/releases/download/v0.5.2/coffer-0.5.2-setup.exe",
+    "sha256":  "a94519a09a8c4cdf5d2233aa1f640048068d9c9909a5e815e74594e817f6f4ba",
+    "notes":  "Coffer now says when it has copied your budget in from an older folder, and names the folder."
 }
